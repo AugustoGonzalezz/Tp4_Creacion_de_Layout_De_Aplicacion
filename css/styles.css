@@ -1,0 +1,98 @@
+*{
+    margin:0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(42deg, black, transparent);
+}
+.contenedor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenRegistro {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenRegistro img {
+    width: 85%;
+    height: auto;
+    border-radius: 35px;
+}
+
+.navegadorRegistro {
+    background-color: wheat;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.contRegistro {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.pr {
+    position: relative;
+}
+
+.label{
+    position: absolute;
+    top: 0em;
+    transition: all .3s ease-in-out;
+}
+
+input:focus~.label {
+    top: -15px;
+
+}
+.navegadorRegistro a{
+    padding: 1rem;
+}
+.contenidoNavRegistro {
+    width: 50%;
+    text-align: center;
+}
+.contenedorRegistro {
+    background-color: red;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorTextoRegistro {
+    height: 80%;
+    background: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
