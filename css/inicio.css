@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #FDECEC;
+    min-height: 100vh;
+}
+
+.contenedor-app {
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.perfil-pic {
+    background-image: url('https://avatars.githubusercontent.com/u/128574534?v=4s');
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.menu-icons {
+    display: flex;
+    gap: 15px;
+}
+.search-icon, .menu-icon{
+    cursor: pointer;
+}
+.search-bar {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+.main h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.navegador-tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.navegador-tabs a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+.navegador-tabs a.active {
+    color: #E3425B;
+    border-bottom: 2px solid #E3425B;
+}
+
+.productos {
+    display: flex;
+    gap: 15px;
+    /* flex-wrap: wrap; */
+    overflow-x: scroll;
+}
+
+.producto-carta {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 15px;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.producto-carta img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.producto-tipo {
+    color: #E3425B;
+    font-weight: bold;
+}
+
+.producto-carta h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.precio {
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.add-btn {
+    background-color: #E3425B;
+    color: #FFF;
+    border: none;
+    /* padding: 10px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+}
+.add-btn:hover {
+    background-color: #802634;
+}
+.packs-section {
+    margin-top: 30px;
+}
+
+.packs-section h2 {
+    margin-bottom: 10px;
+}
+
+.packs {
+    display: flex;
+    gap: 10px;
+}
+
+.packs img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .producto-carta {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-tabs {
+        flex-wrap: wrap;
+    }
+
+    .packs img {
+        width: 60px;
+    }
+}
