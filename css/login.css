@@ -3,7 +3,7 @@
 :root,
 :root.light {
     --text: #120a14;
-    --textActive: #ffffff;
+    --textActive: #000000;
     --background: #e4e4e4;
     --primary: #dbabe8;
     --secondary: #d584eb;
@@ -68,7 +68,7 @@ body {
 
 .contenidoNavRegistro a {
     text-decoration: none;
-    color: var(--text);
+    color: var(--textActive);
 }
 
 .active {

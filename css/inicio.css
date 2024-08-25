@@ -95,6 +95,7 @@ header {
     margin-bottom: 20px;
 }
 
+
 .producto-carta img {
     width: 100px;
     height: auto;
@@ -111,9 +112,14 @@ header {
     margin-bottom: 5px;
 }
 
+.menu-producto-carta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .precio {
     color: #888;
-    margin-bottom: 10px;
 }
 
 .add-btn {

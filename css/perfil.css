@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #F4F4F4;
+    color: #333;
+    min-height: 100vh;
+}
+
+.contPerfil {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #E3425B;
+    font-size: 18px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+header a{
+    width:min-content;
+}
+
+.header-perfil {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.perfil-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.perfil-info h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+#noForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#siForm{
+    display: none;
+    flex-direction: column;
+}
+
+.nombre, .localizacion, .bio {
+    color: #888;
+}
+
+.accion-perfil {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.accion-perfil button {
+    background-color: #E3425B;
+    color: #FFF;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.accion-perfil #edit_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5A67D8;
+}
+
+.accion-perfil #save_btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #008811;
+}
+
+.accion-perfil .settings-btn {
+    background-color: #48BB78;
+}
+
+.detalles-perfil h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #E3425B;
+    padding-bottom: 10px;
+}
+
+.productos-fav {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.historial-orden p {
+    font-size: 18px;
+    background-color: #FFF;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #E3425B;
+}
+
+@media (max-width: 768px) {
+    .header-perfil {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perfil-pic {
+        margin-bottom: 20px;
+    }
+
+    .accion-perfil {
+        flex-direction: column;
+    }
+
+    .productos-fav {
+        flex-direction: column;
+        align-items: center;
+    }
+}

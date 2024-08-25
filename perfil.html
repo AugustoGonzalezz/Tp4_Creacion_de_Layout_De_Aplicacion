@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+    <link rel="shortcut icon" href="img/iconoAromavella.ico" type="image/x-icon">
+    <title>Mishi Cobos | Perfil</title>
+</head>
+<body>
+    <div class="contPerfil">
+        <header>
+            <a href="inicio.html" class="back-btn">
+                <span class="material-symbols-outlined">arrow_back</span>
+                Inicio</a>
+        </header>
+
+        <section class="header-perfil">
+            <div class="perfil-pic">
+                <img src="https://avatars.githubusercontent.com/u/128574534?v=4s" alt="User Profile Picture">
+            </div>
+            <div class="perfil-info">
+                <div id="noForm">
+                    <h1>Mishi Cobos</h1>
+                    <p class="localizacion">Mendoza, ARG</p>
+                    <p class="bio">Hola, soy mishi, una gatita de mendoza y yo cree esta pagina web.</p>
+                </div>
+                <form action="" id="siForm">
+                    <h1>Modo editor</h1>
+                    <label for="" class="nombre">Imagen de perfil</label>
+                        <input accept="image/*" type="file" multiple>
+                    <label for="" class="nombre">Nombres</label>
+                        <input type="text">
+                    <label for="" class="localizacion">Ubicacion</label>
+                        <input type="text">
+                    <label for="" class="bio">Biografia</label>
+                        <input type="text">
+                </form>
+            </div>
+        </section>
+
+        <section class="accion-perfil">
+            <button id="edit_btn">Editar perfil</button>
+            <button id="save_btn">Guardar cambios</button>
+            <button class="settings-btn">Configuracion</button>
+        </section>
+
+        <section class="detalles-perfil">
+            <h2>Productos favoritos</h2>
+            <div class="productos-fav">
+                <div class="product">
+                    <img src="https://via.placeholder.com/100" alt="Product 1">
+                    <p>Hair Strength Shampoo</p>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/100" alt="Product 2">
+                    <p>Moisture Lock Conditioner</p>
+                </div>
+            </div>
+
+            <h2>Historial de compras</h2>
+            <div class="historial-orden">
+                <p>Orden #12345 - Hair Strength Shampoo - $21.40</p>
+                <p>Orden #12346 - Moisture Lock Conditioner - $32.60</p>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript">
+	 	
+        edit_btn.addEventListener("click", e => {
+            noForm.style.display = "none";
+            siForm.style.display = "flex";
+            edit_btn.style.display = "none";
+            save_btn.style.display = "flex";
+        })
+        
+        save_btn.addEventListener("click", e => {
+            noForm.style.display = "flex";
+            siForm.style.display = "none";
+            edit_btn.style.display = "flex";
+            save_btn.style.display = "none";
+        })
+
+
+    </script>
+</body>
+</html>
