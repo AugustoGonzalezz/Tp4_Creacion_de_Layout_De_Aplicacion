@@ -95,26 +95,7 @@ body {
     border-radius: inherit;
 }
 
-@media (max-width: 775px) {
-    #contenedorcentrado {
-        flex-direction: column-reverse;
-    }
 
-    #derecho {
-        padding: 20px;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --text: #f3ebf5;
-        --textActive: #000000;
-        --background: #09001f;
-        --primary: #471754;
-        --secondary: #65147b;
-        --accent: #8b0462;
-    }
-}
 #loginform {
     display: none;
     flex-direction: column;
@@ -229,4 +210,30 @@ body {
 
 #registerform button:hover {
     background-color: var(--secondary);
+}
+
+@media (max-width: 775px) {
+    #contenedorcentrado {
+        flex-direction: column-reverse;
+    }
+    #registerform input {
+        width: 100%;
+    }
+    .row{
+        width: auto;
+    }
+   #derecho{
+       width:100%;
+   }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #f3ebf5;
+        --textActive: #000000;
+        --background: #09001f;
+        --primary: #471754;
+        --secondary: #65147b;
+        --accent: #8b0462;
+    }
 }

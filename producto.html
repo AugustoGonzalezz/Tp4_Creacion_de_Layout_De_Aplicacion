@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+    <link rel="shortcut icon" href="img/iconoAromavella.ico" type="image/x-icon">
+    <title>Producto | Aromavella</title>
+</head>
+
+<body>
+    <div class="contenedor-app">
+        <header>
+            <a href="inicio.html" class="material-symbols-outlined">
+                arrow_back
+            </a>
+            <div class="menu-icons">
+                <span class="search-icon material-symbols-outlined" onclick="toggleSearch()">search</span>
+                <span class="menu-icon">☰</span>
+            </div>
+        </header>
+
+        <div id="search-bar" class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+
+        <section class="main">
+            <h3 class="rojo">Shampoo</h3>
+            <h1>Hair Strength</h1>
+            <div class="carta">
+                <div class="producto-carta">
+                    <img src="https://via.placeholder.com/300" alt="Hair Strength Shampoo">
+                </div>
+                <div class="packs-section">
+                    <h2>Ingredientes</h2>
+                    <div class="packs">
+                        <img src="https://via.placeholder.com/80" alt="Pack 1">
+                        Pepe
+                        <img src="https://via.placeholder.com/80" alt="Pack 2">
+                        Pepe
+                        <img src="https://via.placeholder.com/80" alt="Pack 3">
+                        Pepe
+                    </div>
+                </div>
+            </div>
+            <div class="descripcion">
+                <h1>Descripcion</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit excepturi consequatur assumenda eos porro. Modi magni facere, qui expedita illum recusandae sint a consequatur harum! Animi incidunt molestiae possimus iste.</p>
+            </div>
+            <div class="opcionesCompra">
+                <div class="menuCompra">
+                    <div class="precio">$21,42</div>
+                    <div class="cantidadCompra">
+                        <button>-</button>
+                        <p>0</p>
+                        <button>+</button>
+                    </div>
+                </div>
+                <button>Añadir</button>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function toggleSearch() {
+            const searchBar = document.getElementById('search-bar');
+            if (searchBar.style.display === 'none' || searchBar.style.display === '') {
+                searchBar.style.display = 'block';
+            } else {
+                searchBar.style.display = 'none';
+            }
+        }
+
+    </script>
+</body>
+
+</html>
