@@ -133,30 +133,55 @@
     </div>
 
     <script src="js/leerProducts.js"></script>
-    <script>
+    <script src="js/filtros.js"></script>
+    <!-- <script>
+        mascaraClass = document.querySelector(".mask");
+            shampooClass = document.querySelector(".shampoo");
+            conditionerClass = document.querySelector(".conditioner");
+
         todos.addEventListener("click", e => {
             todos.classList.add('active');
             shampoo.classList.remove('active');
             mascaras.classList.remove('active');
             cremanjuagues.classList.remove('active');
+
+            mascaraClass.style.display = ("flex");
+            shampooClass.style.display = ("flex");
+            conditionerClass.style.display = ("flex");
         })
         shampoo.addEventListener("click", e => {
             todos.classList.remove('active');
             shampoo.classList.add('active');
             mascaras.classList.remove('active');
             cremanjuagues.classList.remove('active');
+
+            mascaraClass.style.display = ("none");
+            shampooClass.style.display = ("flex");
+            conditionerClass.style.display = ("none");
         })
         mascaras.addEventListener("click", e => {
             todos.classList.remove('active');
             shampoo.classList.remove('active');
             mascaras.classList.add('active');
             cremanjuagues.classList.remove('active');
+
+            mascaraClass.style.display = ("flex");
+            shampooClass.style.display = ("none");
+            conditionerClass.style.display = ("none");
         })
         cremanjuagues.addEventListener("click", e => {
             todos.classList.remove('active');
             shampoo.classList.remove('active');
             mascaras.classList.remove('active');
             cremanjuagues.classList.add('active');
+
+            mascaraClass = document.querySelector(".mask");
+            shampooClass = document.querySelector(".shampoo");
+            conditionerClass = document.querySelector(".conditioner");
+
+            mascaraClass.style.display = ("none");
+            shampooClass.style.display = ("none");
+            conditionerClass.style.display = ("flex");
         })
 
         function toggleSearch() {
@@ -167,7 +192,7 @@
                 searchBar.style.display = 'none';
             }
         }
-    </script>
+    </script> -->
 </body>
 
 </html>

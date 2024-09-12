@@ -5,13 +5,14 @@ fetch("json/products.json")
         return response.json();
     })
     .then((data) => {
-        for (let i = 0; i < 9; i++) {
+        for (let i = 0; i < 20; i++) {
 
             // almaceno en la variable restaurante el valor de i del FOR
             let restaurante = data[i];
 
             let cartaRestaurante = document.createElement("a");
             cartaRestaurante.classList.add("resto");
+            cartaRestaurante.classList.add(`${data[i].typeClass}`);
             cartaRestaurante.setAttribute("href", "resto.html")
             cartaRestaurante.id = restaurante.truck_id;
             cartaRestaurante.innerHTML = /*html*/ `

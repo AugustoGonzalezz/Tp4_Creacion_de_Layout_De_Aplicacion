@@ -1,10 +1,12 @@
 [
     {
+      "SHAMPOOS" : "-------------SHAMPOOS-------------   1 a 5",
       "truck_id": "1",
-      "name": "Hair Strength",
+      "name": "Head & Shoulders Classic Clean",
       "category": "Shampoo",
-      "desc": "Producto para lavarte el pelo sucio.",
-      "price": "21.50",
+      "typeClass" : "shampoo",
+      "desc": "Ideal para combatir la caspa, limpia el cuero cabelludo y proporciona un frescor duradero.",
+      "price": "10.00",
       "avatar": {
         "src": "img/shampoo.jpeg",
         "alt": "",
@@ -14,28 +16,29 @@
         {
           "id_ingrediente": "1",
           "src": "/img/plato2.jpg",
-          "titulo": "Limon",
+          "titulo": "Piroctona olamina",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
           "src": "",
-          "titulo": "Aloe Vera",
+          "titulo": "zinc piritiona",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
             "src": "/img/plato2.jpg",
-            "titulo": "Naranja",
+            "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
       ]
     },
     {
       "truck_id": "2",
-      "name": "Hair Strength",
+      "name": "L'Oréal Paris Elvive Total Repair 5",
       "category": "Shampoo",
-      "desc": "Producto para lavarte el pelo sucio.",
+      "typeClass" : "shampoo",
+      "desc": "Repara el daño del cabello y lo fortalece, haciéndolo más suave y manejable.",
       "price": "30.99",
       "avatar": {
         "src": "img/shampoo2.jpg",
@@ -46,19 +49,450 @@
         {
           "id_ingrediente": "1",
           "src": "/img/plato2.jpg",
-          "titulo": "Limon",
+          "titulo": "Ceramidas",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
           "src": "",
-          "titulo": "Aloe Vera",
+          "titulo": "proteína de reconstrucción",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
             "src": "/img/plato2.jpg",
-            "titulo": "Naranja",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "3",
+      "name": "Pantene Pro-V Daily Moisture Renewal",
+      "category": "Shampoo",
+      "typeClass" : "shampoo",
+      "desc": "Producto para lavarte el pelo sucio.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/hairmask1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Pro-vitamina B5",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "aceite de jojoba",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "4",
+      "name": "Aveda Shampure Nurturing",
+      "category": "Shampoo",
+      "typeClass" : "shampoo",
+      "desc": "Limpia suavemente mientras nutre el cabello con una mezcla de aceites y extractos botánicos.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Extractos de plantas",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "aceites esenciales",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "5",
+      "name": "Kiehl's Amino Acid Shampoo",
+      "category": "Shampoo",
+      "typeClass" : "shampoo",
+      "desc": "Limpia y acondiciona el cabello, dejando una sensación de suavidad y ligereza.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Aminoácidos",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "aceite de coco",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "MASCARAS FACIALES" : "-------------MASK-------------    6 a 10",
+      "truck_id": "6",
+      "name": "The Ordinary Salicylic Acid 2% Masque",
+      "category": "Hair Mask",
+      "typeClass" : "mask",
+      "desc": "Ideal para pieles propensas al acné, exfolia y limpia los poros.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Ácido salicílico",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "arcilla",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "7",
+      "name": "GlamGlow Supermud Clearing Treatment",
+      "category": "Hair Mask",
+      "typeClass" : "mask",
+      "desc": "Ideal para pieles propensas al acné, exfolia y limpia los poros.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Arcilla",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "ácido glicólico",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "carbón activado",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "8",
+      "name": "L'Oréal Paris Pure-Clay Mask",
+      "category": "Hair Mask",
+      "typeClass" : "mask",
+      "desc": "Limpia en profundidad y purifica la piel, dejándola más fresca.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Arcilla",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "eucalipto",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "9",
+      "name": "Origins Clear Improvement Charcoal Mask",
+      "category": "Hair Mask",
+      "typeClass" : "mask",
+      "desc": "Elimina las impurezas y detoxifica la piel, ideal para una limpieza profunda.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Carbón activo",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "arcilla",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "10",
+      "name": "Innisfree Super Volcanic Pore Clay Mask",
+      "category": "Hair Mask",
+      "typeClass" : "mask",
+      "desc": "Absorbe el exceso de grasa y minimiza la apariencia de los poros.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Polvo de volcán",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "extracto de té verde",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "CREMANJUAGES" : "-------------CONDITIONER-------------    11 a 15",
+      "truck_id": "11",
+      "name": "CeraVe Moisturizing Cream",
+      "category": "Conditioner",
+      "typeClass" : "conditioner",
+      "desc": "Hidratación intensa para piel seca o muy seca, restaurando la barrera cutánea.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Ceramidas",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "ácido hialurónico",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "12",
+      "name": "Neutrogena Hydro Boost Water Gel",
+      "category": "Conditioner",
+      "typeClass" : "conditioner",
+      "desc": "Hidratación ligera que se absorbe rápidamente, ideal para pieles normales a mixtas.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Ácido hialurónico",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "glicerina",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "13",
+      "name": "Clinique Moisture Surge 72-Hour Auto-Replenishing Hydrator",
+      "category": "Conditioner",
+      "typeClass" : "conditioner",
+      "desc": "Hidratación prolongada que ayuda a mantener la piel fresca y radiante durante todo el día.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Aloe vera",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "ácido hialurónico",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "14",
+      "name": "Olay Regenerist Micro-Sculpting Cream",
+      "category": "Conditioner",
+      "typeClass" : "conditioner",
+      "desc": "Reafirma y reafirma la piel, reduciendo la apariencia de arrugas.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Amino-peptidos",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "ácido hialurónico",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "15",
+      "name": "Kiehl’s Ultra Facial Cream",
+      "category": "Conditioner",
+      "typeClass" : "conditioner",
+      "desc": "Hidratación profunda y duradera que protege la piel de las inclemencias del tiempo.",
+      "price": "50.00",
+      "avatar": {
+        "src": "img/conditioner1.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Glacial glycoprotein",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "escualano",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
       ]

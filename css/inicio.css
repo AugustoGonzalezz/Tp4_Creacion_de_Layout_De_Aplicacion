@@ -4,7 +4,19 @@
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
+.shampoo{
+    display: flex;
+}
+.mask{
+    display: flex;
+}
+.conditioner{
+    display: flex;
+}
 
+.ocultar{
+    display: none;
+}
 body {
     background-color: #FDECEC;
     min-height: 100vh;
