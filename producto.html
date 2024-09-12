@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/producto.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="shortcut icon" href="img/iconoAromavella.ico" type="image/x-icon">
     <title>Producto | Aromavella</title>
 </head>
@@ -27,7 +28,7 @@
         </div>
 
         <section class="main">
-            <h3 class="rojo">Shampoo</h3>
+            <!-- <h3 class="rojo">Shampoo</h3>
             <h1>Hair Strength</h1>
             <div class="carta">
                 <div class="producto-carta">
@@ -51,17 +52,78 @@
             </div>
             <div class="opcionesCompra">
                 <div class="menuCompra">
-                    <div class="precio"><p class="etiquetaPrecio">$</p>21.42</div>
+                    <div class="precio"><p class="etiquetaPrecio">$</p><p class="precioNum">21.50</p></div>
                     <div class="cantidadCompra">
-                        <button class="restarCompra">-</button>
-                        <p class="cantCompra">0</p>
-                        <button class="sumarCompra">+</button>
+                        <button class="symbols2 restarCompra" onclick="restar()">-</button>
+                        <p class="cantCompra"></p>
+                        <button class="symbols2 sumarCompra" onclick="sumar()">+</button>
                     </div>
                 </div>
                 <button class="añadirCompra">Añadir</button>
-            </div>
+            </div> -->
         </section>
     </div>
+    <script src="js/mostrarProduct.js"></script>
+    <script>
+      // let es global y local
+// var es global
+let unit = 21.50;
+
+let cantidad = document.querySelector(".cantCompra");
+let btnrestar = document.querySelector(".restarCompra");
+let btnsumar = document.querySelector(".sumarCompra");
+let subTotal = document.querySelector(".precioNum");
+
+let cant = 1;
+cantidad.innerText = "1";
+btnrestar.innerText = "block";
+btnrestar.style.color = "gray";
+btnrestar.style.cursor = "unset";
+
+function restar(){
+  if(cant>1){
+    btnrestar.innerText = 'remove';
+    btnsumar.innerText = 'add';
+    btnsumar.style.cursor = "pointer";
+    cant = cant - 1;
+    cantidad.innerText=cant;
+    console.log(cant);
+
+    subTotal.innerText = `${unit*cant}`;
+    
+  }
+  if(cant===1){
+    btnrestar.innerText = "block";
+    btnrestar.style.color = "gray";
+    btnrestar.style.cursor = "unset";
+    // alert("No puedes sumar mas de 15");
+  }
+}
+
+function sumar(){
+  if(cant<=14){
+    btnrestar.innerText = 'remove';
+    btnsumar.innerText = 'add';
+    cant = cant + 1;
+    cantidad.innerText=cant;
+    console.log(cant);
+    btnrestar.style.cursor = "pointer";
+    subTotal.innerText = `${unit*cant}`;
+    
+  }
+  if(cant===15){
+    btnsumar.innerText = "block";
+    btnsumar.style.color = "gray";
+    btnsumar.style.cursor = "unset";
+  }
+}
+
+let carrito = document.querySelector(".btnAgregar");
+
+carrito.addEventListener("click", function () {
+  console.log("BOTON CARRITO AGREGADO")
+});
+    </script>
 </body>
 
 </html>

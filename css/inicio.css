@@ -9,7 +9,9 @@ body {
     background-color: #FDECEC;
     min-height: 100vh;
 }
-
+a{
+    text-decoration: none;
+}
 .contenedor-app {
     padding: 20px;
     margin: auto;
@@ -91,7 +93,7 @@ header {
     background-color: #F8F8F8;
     border-radius: 10px;
     padding: 15px;
-    width: 45%;
+    width: auto;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -109,6 +111,7 @@ header {
 }
 
 .producto-carta h2 {
+    color: #666;
     font-size: 16px;
     margin-bottom: 5px;
 }

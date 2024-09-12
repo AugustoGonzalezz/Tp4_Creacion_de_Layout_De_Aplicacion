@@ -1,0 +1,66 @@
+[
+    {
+      "truck_id": "1",
+      "name": "Hair Strength",
+      "category": "Shampoo",
+      "desc": "Producto para lavarte el pelo sucio.",
+      "price": "21.50",
+      "avatar": {
+        "src": "img/shampoo.jpeg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Limon",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "Aloe Vera",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "Naranja",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    },
+    {
+      "truck_id": "2",
+      "name": "Hair Strength",
+      "category": "Shampoo",
+      "desc": "Producto para lavarte el pelo sucio.",
+      "price": "30.99",
+      "avatar": {
+        "src": "img/shampoo2.jpg",
+        "alt": "",
+        "title": ""
+      },
+      "ingredientes": [
+        {
+          "id_ingrediente": "1",
+          "src": "/img/plato2.jpg",
+          "titulo": "Limon",
+          "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        },
+        {
+          "id_plato": "2",
+          "src": "",
+          "titulo": "Aloe Vera",
+          "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
+        },
+        {
+            "id_ingrediente": "3",
+            "src": "/img/plato2.jpg",
+            "titulo": "Naranja",
+            "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
+        }
+      ]
+    }
+]
