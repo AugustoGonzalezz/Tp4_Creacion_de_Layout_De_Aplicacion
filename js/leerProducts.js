@@ -11,7 +11,7 @@ function renderizarProductos(data) {
         const cartaRestaurante = document.createElement("a");
         cartaRestaurante.classList.add("resto");
         cartaRestaurante.classList.add(`${producto.typeClass}`);
-        cartaRestaurante.setAttribute("href", "resto.html");
+        cartaRestaurante.setAttribute("href", "producto.html");
         cartaRestaurante.id = producto.truck_id;
         cartaRestaurante.innerHTML = /*html*/ `
             <div class="producto-carta">

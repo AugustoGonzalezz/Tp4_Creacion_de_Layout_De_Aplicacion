@@ -3,20 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #4d4545;
+
 }
-.shampoo{
+.shampoo, .mask, .conditioner{
     display: flex;
-}
-.mask{
-    display: flex;
-}
-.conditioner{
-    display: flex;
+    margin-bottom: 1rem;
 }
 
 .ocultar{
     display: none;
 }
+
+
 body {
     background-color: #FDECEC;
     min-height: 100vh;
@@ -96,6 +96,7 @@ header {
 
 .productos {
     display: flex;
+    align-items: center;
     gap: 15px;
     /* flex-wrap: wrap; */
     overflow-x: scroll;
@@ -107,7 +108,7 @@ header {
     padding: 15px;
     width: auto;
     text-align: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 
