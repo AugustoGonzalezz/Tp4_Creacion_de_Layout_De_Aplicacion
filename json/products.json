@@ -8,26 +8,26 @@
       "desc": "Ideal para combatir la caspa, limpia el cuero cabelludo y proporciona un frescor duradero.",
       "price": "10.00",
       "avatar": {
-        "src": "img/shampoo.jpeg",
+        "src": "img/productos/headShouldersShampoo.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "Piroctona olamina",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/zincPiritona.jpg",
           "titulo": "zinc piritiona",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/agua.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -41,26 +41,26 @@
       "desc": "Repara el daño del cabello y lo fortalece, haciéndolo más suave y manejable.",
       "price": "30.99",
       "avatar": {
-        "src": "img/shampoo2.jpg",
+        "src": "img/productos/lorealParis.png",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/ceramidas.jpg",
           "titulo": "Ceramidas",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/noDispo.jpeg",
           "titulo": "proteína de reconstrucción",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/agua.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -74,26 +74,26 @@
       "desc": "Producto para lavarte el pelo sucio.",
       "price": "50.00",
       "avatar": {
-        "src": "img/hairmask1.jpg",
+        "src": "img/productos/Pantene.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/b5.jpg",
           "titulo": "Pro-vitamina B5",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/aceiteJojoba.jpg",
           "titulo": "aceite de jojoba",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/agua.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -107,26 +107,26 @@
       "desc": "Limpia suavemente mientras nutre el cabello con una mezcla de aceites y extractos botánicos.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/AvedaShampoo.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/extractoPlantas.jpg",
           "titulo": "Extractos de plantas",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/aceitesEsenciales.jpg",
           "titulo": "aceites esenciales",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/agua.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -140,26 +140,26 @@
       "desc": "Limpia y acondiciona el cabello, dejando una sensación de suavidad y ligereza.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/kiehlsShampoo.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/aminoacidos.jpg",
           "titulo": "Aminoácidos",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/aceiteCoco.jpeg",
           "titulo": "aceite de coco",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/agua.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -174,26 +174,26 @@
       "desc": "Ideal para pieles propensas al acné, exfolia y limpia los poros.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/ordinaryMask.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/acidoSalicilico.jpg",
           "titulo": "Ácido salicílico",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/arcilla.jpeg",
           "titulo": "arcilla",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/agua.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -207,26 +207,26 @@
       "desc": "Ideal para pieles propensas al acné, exfolia y limpia los poros.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/glamGlowMask.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/arcilla.jpeg",
           "titulo": "Arcilla",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/acidoGlicolico.jpg",
           "titulo": "ácido glicólico",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/carbonActivado.png",
             "titulo": "carbón activado",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -240,26 +240,26 @@
       "desc": "Limpia en profundidad y purifica la piel, dejándola más fresca.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/lorealParisMask.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/arcilla.jpeg",
           "titulo": "Arcilla",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/eucalipto.jpg",
           "titulo": "eucalipto",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/agua.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -273,26 +273,26 @@
       "desc": "Elimina las impurezas y detoxifica la piel, ideal para una limpieza profunda.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/originsMask.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/carbonActivado.png",
           "titulo": "Carbón activo",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/arcilla.jpeg",
           "titulo": "arcilla",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/agua.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -306,26 +306,26 @@
       "desc": "Absorbe el exceso de grasa y minimiza la apariencia de los poros.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/innisfreeMask.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/polvoVolcan.png",
           "titulo": "Polvo de volcán",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/extractoVerde.jpg",
           "titulo": "extracto de té verde",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/agua.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -340,26 +340,26 @@
       "desc": "Hidratación intensa para piel seca o muy seca, restaurando la barrera cutánea.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/Pantene.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "Ceramidas",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "ácido hialurónico",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/piroctonaOlamina.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -373,26 +373,26 @@
       "desc": "Hidratación ligera que se absorbe rápidamente, ideal para pieles normales a mixtas.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/Pantene.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "Ácido hialurónico",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "glicerina",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/piroctonaOlamina.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -406,26 +406,26 @@
       "desc": "Hidratación prolongada que ayuda a mantener la piel fresca y radiante durante todo el día.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/Pantene.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "Aloe vera",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "ácido hialurónico",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/piroctonaOlamina.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -439,26 +439,26 @@
       "desc": "Reafirma y reafirma la piel, reduciendo la apariencia de arrugas.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/Pantene.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "Amino-peptidos",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "ácido hialurónico",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/piroctonaOlamina.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
@@ -472,26 +472,26 @@
       "desc": "Hidratación profunda y duradera que protege la piel de las inclemencias del tiempo.",
       "price": "50.00",
       "avatar": {
-        "src": "img/conditioner1.jpg",
+        "src": "img/productos/Pantene.jpg",
         "alt": "",
         "title": ""
       },
       "ingredientes": [
         {
           "id_ingrediente": "1",
-          "src": "/img/plato2.jpg",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "Glacial glycoprotein",
           "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         },
         {
           "id_plato": "2",
-          "src": "",
+          "src": "/img/ingredientes/piroctonaOlamina.jpg",
           "titulo": "escualano",
           "descripcion": "Fideos con salsa de tomate, menta, tomate y trozos de carne."
         },
         {
             "id_ingrediente": "3",
-            "src": "/img/plato2.jpg",
+            "src": "/img/ingredientes/piroctonaOlamina.jpg",
             "titulo": "agua",
             "descripcion": "Ensalada de tomate, aceituna negra, cebolla morada y salsa negra."
         }
